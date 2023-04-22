@@ -5,7 +5,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+	<link href="./style.css" rel="stylesheet">
+	<title>Eric's Multi-Genre Project</title>
 </head>
 
 <body>
@@ -13,33 +17,53 @@
 		<h1>Epoxy!</h1>
 		<h2>...The stuff that holds the world together.</h2>
 		<!--Navigation between genres-->
-    <nav>
+    <div class="navbar">
+			<a href="#">Home</a>
 			<a href="#postcard-section">Postcard</a>
-			<a href="#comic-strip-section">Postcard</a>
+			<a href="#top-ten-list-section">Top Ten List</a>
+			<a href="#timeline-section">Timeline</a>
+			<a href="#playlist-section">Playlist</a>
 			<a href="#">Postcard</a>
 			<a href="#">Postcard</a>
 			<a href="#">Postcard</a>
-			<a href="#">Postcard</a>
-			<a href="#">Postcard</a>
-		</nav>
+		</div>
 	</header>
-	<div id="postcard-section">
-		<h2>Genre #5 Postcard</h2>
+	<div id="postcard-section" class="genre-section">
+		<h3>Postcard</h3>
     <!--I need you to upload the images to this repo-->
-    <img id="postcard-front" src="./assets/Postcard_Front"></img>
-    <img id="postcard-back" src="./assets/Postcard_Back"></img>
+    <img id="postcard-front-image" src="./assets/images/Postcard_Front.png">
+    <img id="postcard-back-image" src="./assets/images/Postcard_Back.png" class="hide">
 	</div>
-	<div id="comic-strip-section">
-		<h2>Genre #10 Comic Strip</h2>
+	<div id="top-ten-list-section" class="genre-section">
+		<h3>Top Ten List</h3>
 		<!--Upload comic strip to repository-->
-		<img id="comic-strip-image" src="./assets/Comic-Strip-Image">
+		<img id="top-ten-list-image" src="./assets/images/Top_Ten_List.png">
 	</div>
-	<div id="">
-		<h2>Genre #</h2>
-		<!--Upload comic strip to repository-->
-		<img id="" src="./-Image">
+	<div id="timeline-section" class="genre-section">
+		<h3>Timeline</h3>
+		<img id="timeline-main-image" src="./assets/images/Timeline_Main.png">
+		<img id="timeline-works-cited-image" src="./assets/images/Timeline_Works_Cited.png" class="hide">
 	</div>
-    
+	<div id="playlist-section" class="genre-section">
+		<h3>Playlist</h3>
+        <!--
+		<img id="playlist-cover-image" src="./assets/images/Playlist_Cover_Image.png">
+		<img id="playlist-main-image" src="./assets/images/Playlist_Main_Image.png" class="hide">
+        -->
+        <table>
+            <tr scope="row">
+                <td>
+                    :O
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    :O
+                </td>
+            </tr>
+        </table>
+	</div>
+  <script src="main.js" defer></script>
 </body>
 
 </html>

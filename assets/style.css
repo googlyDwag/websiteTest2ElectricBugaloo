@@ -1,0 +1,70 @@
+html {
+	font-family: 'Bruno Ace', cursive;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+	background: hsla(242, 58%, 73%, 1);
+
+	background: linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
+	
+	background: -moz-linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
+	
+	background: -webkit-linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
+	
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9491E2", endColorstr="#AFF2D8", GradientType=1 );
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+:not(:empty){
+    color:white;
+}
+.hide {
+	display: none;
+}
+img {
+	width: 75%;
+	height: 25%;
+	object-fit: stretch;
+	border: 20px solid #292827 ;
+}
+.genre-section {
+	width: 100;
+	margin: auto;
+	text-align: center;
+}
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+  background-color: #2472fc;
+  position: fixed;
+  top: 0;
+	left: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.navbar a:hover {
+  background: paleturquoise;
+}
+header {
+	margin: 10vh auto;
+	text-align: center;
+}
+h1 {
+	font-size: 10rem;
+}
+h2 {
+	font-size: 5rem;
+	margin-top: 5vh;
+}
+h3 {
+	font-size: 2.5rem;
+}
