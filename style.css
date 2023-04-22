@@ -95,3 +95,7 @@ embed {
 embed::-webkit-scrollbar {
   display: none;
 }
+footer {
+	text-align: center;
+	margin-top: 10%;
+}
