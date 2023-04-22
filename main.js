@@ -3,7 +3,7 @@ var postcardBack = document.getElementById("postcard-back-image");
 var timelineMain = document.getElementById("timeline-main-image");
 var timelineWorksCited = document.getElementById("timeline-works-cited-image");
 var playlistCover = document.getElementById("playlist-cover-image");
-var playlistMain = document.getElementById("playlist-main-image");
+var playlistMain = document.getElementById("playlist-table-section");
 function nextSlide(slide01, slide02) {
 	if (slide01.style.display != "none") {
 		slide01.style.display = "none";
