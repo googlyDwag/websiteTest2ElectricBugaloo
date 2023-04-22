@@ -68,3 +68,10 @@ h2 {
 h3 {
 	font-size: 2.5rem;
 }
+
+#playlist-section{
+    th {
+        border: 1px solid gray;
+    }
+    
+}
