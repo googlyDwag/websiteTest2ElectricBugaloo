@@ -2,7 +2,7 @@ html {
 	font-family: 'Bruno Ace', cursive;
 	-ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
-	background: hsla(242, 58%, 73%, 1);
+	background: hsla(242, 58%, 73%, 1); /*HSLA?*/
 
 	background: linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%);
 	
@@ -50,7 +50,7 @@ img {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .navbar a:hover {
   background: paleturquoise;
@@ -79,6 +79,7 @@ h1:hover {
 #playlist-table {
 	border: 20px solid #292827 ;
 	text-align: center;
+    
 	background-color: royalblue;
 	padding: 2%;
 	margin: auto;
@@ -86,4 +87,11 @@ h1:hover {
 #playlist-table-section {
 	display: none;
 	width: 100%;
+}
+embed {
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+embed::-webkit-scrollbar {
+  display: none;
 }
